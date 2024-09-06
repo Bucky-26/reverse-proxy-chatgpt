@@ -14,12 +14,12 @@ app.get("/api/conversation", async (req, res) => {
 
 var options = {
   method: 'POST',
-  url: 'https://chat.oaifree.com/backend-api/conversation',
+  url: 'https://new.oaifree.com/backend-api/conversation',
   headers: {
     'Content-Type': 'application/json',
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    Cookie: '_Secure-next-auth.apps-origin=https://chat.oaifree.com; google-analytics_v4_PnTc__ga4=823fd194-64ea-434b-a90c-ad0e5a504244; _Secure-next-auth.session-id=hS34E72AJuDr4eGIyNVMNg80Y6Ie9VQGzexUPreF6ws; google-analytics_v4_PnTc__engagementDuration=0; google-analytics_v4_PnTc__counter=29; google-analytics_v4_PnTc__ga4sid=1749964907; google-analytics_v4_PnTc__session_counter=5; google-analytics_v4_PnTc__let=1706525535628; _Secure-next-auth.session-data=MTcwNjUyNTUzNXwwWHVXMkV0YUlMOXJfV21rZzZBYncwajh0UDJ2UXZaTmd1YmNubTNTcXhPUnFDcWkzbTRQaHFmUEFEdzBBMFlVVUgxMmNHSjdtZTIxXzc1NEsydUZ4RDhZSWwzZFkwOGp8xK6rSlPwsQhgw2H-brsRs_UtNDGO0mRF0vHGhEEOwqI=; cf_clearance=grTuciuoS0mH1TmXm5MSmSwAfsEMRFMD1DNqge5k1zE-1706525536-1-AXsVxS7MGDzHWbElJCdOyZFKnDlAeUvC1Ac9L4xuaUh46E7zuhEQveuNnMV3ZNuXqlxvgaRZixWjCDqh/FMuY00=; google-analytics_v4_PnTc__engagementStart=1706525550431; _dd_s=rum=0&expire=1706526463590',
-    'X-Authorization': 'Bearer oEfET3WA-75vsDFuRzE1L6E4qBPCfg9UCIrorg39Npc'
+    Cookie: '',
+    'X-Authorization': 'Bearer '
   },
   data: {
     action: 'next',
